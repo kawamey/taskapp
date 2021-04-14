@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493B8F33261E005E0016DD73 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B8F32261E005E0016DD73 /* Task.swift */; };
 		49ED4523261A749D009B861B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED4522261A749D009B861B /* AppDelegate.swift */; };
 		49ED4525261A749D009B861B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED4524261A749D009B861B /* SceneDelegate.swift */; };
 		49ED4527261A749D009B861B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED4526261A749D009B861B /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		493B8F32261E005E0016DD73 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		49ED451F261A749D009B861B /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ED4522261A749D009B861B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49ED4524261A749D009B861B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				49ED4526261A749D009B861B /* ViewController.swift */,
 				49ED4546261C7EA5009B861B /* InputViewController.swift */,
 				49ED4528261A749D009B861B /* Main.storyboard */,
+				493B8F32261E005E0016DD73 /* Task.swift */,
 				49ED452B261A749E009B861B /* Assets.xcassets */,
 				49ED452D261A749E009B861B /* LaunchScreen.storyboard */,
 				49ED4530261A749E009B861B /* Info.plist */,
@@ -91,7 +94,6 @@
 				633B3E4AC7EA6839568E0912 /* Pods-taskapp.debug.xcconfig */,
 				FFF274FDC34D0774D89FCD7F /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +213,7 @@
 			files = (
 				49ED4527261A749D009B861B /* ViewController.swift in Sources */,
 				49ED4523261A749D009B861B /* AppDelegate.swift in Sources */,
+				493B8F33261E005E0016DD73 /* Task.swift in Sources */,
 				49ED4525261A749D009B861B /* SceneDelegate.swift in Sources */,
 				49ED4547261C7EA5009B861B /* InputViewController.swift in Sources */,
 			);
